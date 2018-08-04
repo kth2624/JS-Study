@@ -8,7 +8,7 @@ Key는 중복 불가 , value는 중복 가능
 검색성능은 HashMap이 더 뛰어나지만 HashMap에선 정렬 X
 TreeMap은 키값을 정렬해주므로 키값을 순서대로 꺼낼대 유용하다.(오름차순)
 TreeMap 의 메서드
-![Alt text](./t1.jpg)
+![Alt text](t1.jpg)
 ##3.TreeMap 코드분석
 ```java
 import java.util.Map;
@@ -46,4 +46,4 @@ public class TreeMapEx {
 	}
 ```
 출력결과 
-![Alt text](./t2.jpg)
+![Alt text](t2.jpg)
