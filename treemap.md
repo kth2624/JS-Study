@@ -1,14 +1,18 @@
-﻿# **TreeMap**
+# **TreeMap**
 ##1.TreeMap이란
+
 >Map은 Key-Value 형식의 데이터를 저장할 수 있는 자료구조이다.
 >중복을 허용하지 않으며 한개의 Key에 한개의 Value가 매칭된다.
 >Key는 중복 불가 , value는 중복 가능
 >특정 데이터를 찾을 때는 key를 이용해서 검색
+
 ##2.TreeMap의 특징
 >검색성능은 HashMap이 더 뛰어나지만 HashMap에선 정렬 X
 >TreeMap은 키값을 정렬해주므로 키값을 순서대로 꺼낼대 유용하다.(오름차순)
 TreeMap 의 메서드
+
 ![Alt text](/t1.JPG)
+
 ##3.TreeMap 코드분석
 ```java
 import java.util.Map;
@@ -46,4 +50,5 @@ public class TreeMapEx {
 	}
 ```
 출력결과 
+
 ![Alt text](./t2.JPG)
