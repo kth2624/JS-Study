@@ -1,2 +1,1 @@
-# JavaStudy
-# JavaStudy git push -u origin master!
+# JS-Study
