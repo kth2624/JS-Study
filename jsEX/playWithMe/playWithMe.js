@@ -2,7 +2,10 @@ const inputform = document.querySelector("#input-form");
 const input = document.querySelector("#input-form input");
 const intra = document.querySelector("#intra-id");
 const btn = document.querySelector("#button");
+const reset = document.querySelector("#reset");
+
 const idArr = [];
+
 function onSubmit(event){
 
 	event.preventDefault();
@@ -47,9 +50,18 @@ function onBtn(event){
 		// colorize(winusers[i], user);
 		user.textContent = idArr[i];
 		resultTag.appendChild(user);
-  	}, 500 * (i + 1));
+  		}, 1000 * (i + 1));
 	}
+}
 
+function onReset(event){
+	event.preventDefault();
+	console.log("reset");
+	const temp = document.querySelector("#result");
+	while(temp.firstChild){
+		temp.firstChild.remove();
+	}
 }
 inputform.addEventListener("submit", onSubmit);
 btn.addEventListener("click",onBtn);
+reset.addEventListener("click",onReset);
