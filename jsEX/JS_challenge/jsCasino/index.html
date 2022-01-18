@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS-Casino</title>
+  </head>
+  <body>
+    <h1>Random Number Game</h1>
+    <form id="game">
+      <label for="maxnum">Generate a number between 0 and</label>
+      <input required id="maxnum" name="maxnum" maxlength="3" type="number" />
+      <br></br>
+      <label for="mynum">Guess the number:</label>
+      <input required id="mynum" type="number" />
+      <button type="submin">Play!</button>
+    </form>
+    <div>
+      <span id="choice"></span>
+    </br>
+      <b id="result"></b>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
