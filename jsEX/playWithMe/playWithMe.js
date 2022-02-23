@@ -23,7 +23,7 @@ function shuffle(array){
 }
 
 function onBtn(event){
-	const teamName = ["건","곤","감","리"];
+	const teamName = ["집","현","전"];
 	event.preventDefault();
 	shuffle(idArr);
 	console.log(idArr);
